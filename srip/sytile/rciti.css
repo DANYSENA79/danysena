@@ -1,0 +1,88 @@
+/* Estilos generales */
+
+.receta {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .receta h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .receta p {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la imagen de la receta */
+  
+  .receta img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la información de la receta */
+  
+  .receta-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .receta-info div {
+    width: 30%;
+    margin: 10px;
+  }
+  
+  .receta-info label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .receta-info span {
+    font-size: 18px;
+  }
+  
+  /* Estilos para la lista de ingredientes */
+  
+  .ingredientes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ingredientes li {
+    margin-bottom: 10px;
+  }
+  
+  .ingredientes li:before {
+    content: "•";
+    font-size: 18px;
+    color: #666;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para la lista de instrucciones */
+  
+  .instrucciones {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .instrucciones li {
+    margin-bottom: 20px;
+  }
+  
+  .instrucciones li span {
+    font-weight: bold;
+    margin-right: 10px;
+  }
